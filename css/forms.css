@@ -49,6 +49,27 @@ legend {
 label {
 	display: block;
 }
+
+textarea {
+	height: 10rem;
+	padding: 1rem;
+}
+
+select {
+	font-size: 1rem;
+}
+
+button {
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color: #bb432f;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+
+}
 	
 
  
