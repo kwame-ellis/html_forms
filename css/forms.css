@@ -39,11 +39,11 @@ fieldset {
 }
 
 legend {
+	display: block;
 	font-weight: bold;
 	font-size: 1.3rem;
 	margin-top: 1.5rem;
 	margin-bottom: 1rem;
-	display: block;
 }	
 
 label {
@@ -60,6 +60,7 @@ select {
 }
 
 button {
+<<<<<<< HEAD
 	font-weight: bold;
 	font-size: 1rem;
 	margin: 2rem 0;
@@ -69,6 +70,21 @@ button {
 	border-radius: 10px;
 	padding: 0.5rem 1rem;
 
+=======
+	font-size: 1rem;
+	margin: 2rem 0;
+	border: none;
+	border-radius: 10px;
+	background-color: #bb342f;
+	color:white;
+	padding: 0.5rem 1;
+
+>>>>>>> 95fce887cff16d5e3065bbab72f5207fb98ca8ba
+}
+
+button:hover {
+	background-color: aliceblue;
+	color: #bb342b;
 }
 	
 
