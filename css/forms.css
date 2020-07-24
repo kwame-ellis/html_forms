@@ -28,7 +28,7 @@ aside {
 	flex-basis: 33%;
 }
 
-p {
+p, [for="abtype"] {
 	margin: 2rem 0 0 0;
 }
 
@@ -48,6 +48,7 @@ legend {
 
 label {
 	display: block;
+	padding-bottom: 0.3rem;
 }
 
 textarea {
@@ -75,7 +76,7 @@ button:hover {
 	color: #bb342b;
 }
 	
-input:not([type="radio"]):not([type="checkbox"]) , textarea {
+input:not([type="radio"]):not([type="checkbox"]) , textarea, select {
 	display: block;
 	margin-top: 0;
 	margin-bottom: 2rem;
@@ -83,6 +84,8 @@ input:not([type="radio"]):not([type="checkbox"]) , textarea {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	padding: 0 0.5rem;
+	border-radius: 10px;
+
 }
 
  
